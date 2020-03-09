@@ -39,6 +39,8 @@ public class MainActivity extends FragmentActivity {
                 .title("Destination"));
         });
 
+
+
         mFusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this);
 
         displayMyLocation();
